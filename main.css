@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Orienta&family=Oswald&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 152px;
+    background-color: rgba(191, 230, 236, 1);
+    display: flex;
+}
+.Logo{
+    width: 452px;
+    height: 152px;
+    margin-right: 250px;
+}
+ul{
+ list-style: none;
+}
+.mainA{
+    display: flex;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    font-size: 40px;
+    color: rgba(169, 67, 255, 1);
+}
+li{
+    display: inline-block;
+    margin-right: 140px;
+    font-family: 'Oswald', sans-serif;
+}
+body{
+    background-color: rgba(57, 219, 255, 1);
+    vertical-align: middle;
+}
+.sks{
+    margin-right: 600px;
+    margin-left: 600px;
+    margin-top: 180px;
+    margin-bottom: 60px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+}
+h1{
+    color: rgba(169, 67, 255, 1);
+    font-size: 64px;
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 75px;
+    margin-top: 50px;
+}
+.bs{
+    background-color: black;
+    border: 10px ridge rgba(200, 67, 255, 1);
+    width: 292px;
+    height: 440px;
+}
+.mp{
+    width: 272px;
+    height: 300px;
+}
+.bst{
+    font-family: 'Orienta', sans-serif;
+    font-size: 40px;
+    color: white;
+    margin-left: 25px;
+}
+.cm{
+    background-color: white;
+    border: 10px ridge rgba(200, 67, 255, 1);
+    width: 292px;
+    height: 440px;
+}
+.rbt{
+    font-family: 'Orienta', sans-serif;
+    font-size: 40px;
+    color: white;
+    margin-left: 65px;
+}
+.cmt{
+    font-family: 'Orienta', sans-serif;
+    font-size: 40px;
+    color: black;
+    margin-left: 35px;
+}
+.games{
+    display: flex;
+    justify-content: space-evenly;
+}
+.buy{
+    background-color: rgba(169, 67, 255, 1);
+    border: 10px ridge rgba(200, 70, 255, 1) ;
+    height: 105px;
+    width: 292px;
+    margin-top: 68px;
+}
+.pbuy{
+    color: white;
+    font-family: 'Orienta', sans-serif;
+    font-size: 64px;
+    margin-left: 35px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+.reg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    display: inline-block;
+    margin: 20px;
+    height: 60px;
+    width: 623px;
+    border: 3px solid black;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+.gotovo{
+    display: inline-block;
+    margin: 20px;
+    height: 60px;
+    width: 623px;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    background-color:rgba(4, 232, 54, 1) ;
+}
+.info{
+    margin-top: 50x;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(191, 230, 236, 1);
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+    margin-top: 80px;
+    color:  rgba(169, 67, 255, 1);
+    padding: 50px;
+}
+
